@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,12 @@
 		A2B6E7E424192536006C4F19 /* DataVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6E7E324192536006C4F19 /* DataVisit.swift */; };
 		A2DFFA22272859C300ED2B48 /* DataDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFFA21272859C300ED2B48 /* DataDistance.swift */; };
 		A2F095A223EAD36B007A5419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F095A023EAD36B007A5419 /* Main.storyboard */; };
+		B4ACA46227D602EB00F47AA1 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ACA45E27D602EA00F47AA1 /* RealmSwift.xcframework */; };
+		B4ACA46327D602EB00F47AA1 /* RealmSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4ACA45E27D602EA00F47AA1 /* RealmSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B4ACA46427D602EB00F47AA1 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ACA46027D602EB00F47AA1 /* Realm.xcframework */; };
+		B4ACA46527D602EB00F47AA1 /* Realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4ACA46027D602EB00F47AA1 /* Realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B4ACA46627D602EB00F47AA1 /* Surge.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ACA46127D602EB00F47AA1 /* Surge.xcframework */; };
+		B4ACA46727D602EB00F47AA1 /* Surge.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4ACA46127D602EB00F47AA1 /* Surge.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,9 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A2140413241955A900537968 /* WoosmapGeofencing.framework in Embed Frameworks */,
+				B4ACA46327D602EB00F47AA1 /* RealmSwift.xcframework in Embed Frameworks */,
+				B4ACA46727D602EB00F47AA1 /* Surge.xcframework in Embed Frameworks */,
+				B4ACA46527D602EB00F47AA1 /* Realm.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +126,9 @@
 		A2B6E7E324192536006C4F19 /* DataVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVisit.swift; sourceTree = "<group>"; };
 		A2DFFA21272859C300ED2B48 /* DataDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDistance.swift; sourceTree = "<group>"; };
 		A2F095A123EAD36B007A5419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4ACA45E27D602EA00F47AA1 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = Carthage/Build/RealmSwift.xcframework; sourceTree = "<group>"; };
+		B4ACA46027D602EB00F47AA1 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = Carthage/Build/Realm.xcframework; sourceTree = "<group>"; };
+		B4ACA46127D602EB00F47AA1 /* Surge.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Surge.xcframework; path = Carthage/Build/Surge.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2140412241955A900537968 /* WoosmapGeofencing.framework in Frameworks */,
+				B4ACA46227D602EB00F47AA1 /* RealmSwift.xcframework in Frameworks */,
+				B4ACA46627D602EB00F47AA1 /* Surge.xcframework in Frameworks */,
+				B4ACA46427D602EB00F47AA1 /* Realm.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +168,9 @@
 		A2140410241955A900537968 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4ACA46027D602EB00F47AA1 /* Realm.xcframework */,
+				B4ACA45E27D602EA00F47AA1 /* RealmSwift.xcframework */,
+				B4ACA46127D602EB00F47AA1 /* Surge.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
