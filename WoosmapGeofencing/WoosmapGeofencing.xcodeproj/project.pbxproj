@@ -610,6 +610,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2710EDE25B5C87700AF62F5 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.2;
+			};
+		};
+		A2920CDD27690C820024FB06 /* XCRemoteSwiftPackageReference "Surge" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Jounce/Surge.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2710EDF25B5C87700AF62F5 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2710EDE25B5C87700AF62F5 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		A2710EE125B5C87700AF62F5 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2710EDE25B5C87700AF62F5 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		A2920CDE27690C820024FB06 /* Surge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2920CDD27690C820024FB06 /* XCRemoteSwiftPackageReference "Surge" */;
+			productName = Surge;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A216FBA023E9CEA70003AAC8 /* Project object */;
 }
